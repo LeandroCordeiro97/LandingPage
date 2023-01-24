@@ -1,0 +1,199 @@
+@import url('https://fonts.cdnfonts.com/css/arupala-grotesk-trial');
+
+
+header{
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    left: 348.97px;
+    top: 51px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+}
+
+#Cabecalho{
+    position: relative;
+    margin:0;
+    
+}
+
+.imagemvetor{
+    position: absolute;
+    left: 6.51%;
+    right: 91.64%;
+    bottom:93.9%;
+    top: 1px;
+}
+
+.Home{
+    position: absolute;
+width: 51px;
+height: 22px;
+left: 348.97px;
+top: 51px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.Category{
+    position: absolute;
+width: 79px;
+height: 22px;
+left: 459.97px;
+top: 51px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.Promo{
+    position: absolute;
+width: 55px;
+height: 22px;
+left: 902.97px;
+top: 51px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.About{
+    position: absolute;
+width: 52px;
+height: 22px;
+left: 1017.97px;
+top: 51px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.NomeDaPagina{
+position: absolute;
+width: 195px;
+height: 45px;
+left: 623px;
+top: 39px;
+
+font-family: 'Arupala Grotesk Trial';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 130%;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #0D0D0D;
+}
+
+.pesquisa{
+position: absolute;
+width: 25px;
+height: px;
+left: 1315.97px;
+top: 8px;
+
+}
+
+.linha{
+position: absolute;
+width: 1300px;
+height: 0px;
+left: 370px;
+top: 118px;
+
+border: 3px solid #736F84;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#LinhaVertical{
+position: absolute;
+width: 1010px;
+height: 0px;
+left: 700px;
+top: 625px;
+
+border: 3px solid #736F84;
+transform: rotate(90deg);
+}
+
+#Tshirts{
+position: absolute;
+width: 674px;
+height: 180px;
+left: 440px;
+top: 171px;
+
+font-family: 'Arupala Grotesk Trial';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 90px;
+color: #08090B;
+}
+
+#Paragrafo1{
+position: absolute;
+width: 646px;
+height: 80px;
+left: 440px;
+top: 374px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+text-transform: capitalize;
+color: #08090B;
+opacity: 0.7;
+}
+
+#Imagem1{
+position: absolute;
+width: 670px;
+height: 523px;
+left:440px;
+top: 477px;
+}
+
+#caixaemail{
+position: absolute;
+width: 297px;
+height: 60px;
+left: 440px;
+top: 1037px;
+}
+
+#Botao{
+position: absolute;
+width: 191.19px;
+height: 65px;
+left:760px;
+top: 1037px;
+background-color: #0D0D0D;
+color: white;
+
+}
