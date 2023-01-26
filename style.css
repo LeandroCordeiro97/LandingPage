@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/arupala-grotesk-trial');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 header{
     position: absolute;
@@ -16,74 +17,111 @@ header{
     display: flex;
 }
 
-#Cabecalho{
-    position: relative;
-    margin:0;
-    
+#imagemvetor{
+position:absolute;
+left: 90%;
+right: 91.64%;
+top: 110%;
+bottom: 93.9%;
 }
 
-.imagemvetor{
-    position: absolute;
-    left: 6.51%;
-    right: 91.64%;
-    bottom:93.9%;
-    top: 1px;
-}
 
-.Home{
+#home{
     position: absolute;
 width: 51px;
 height: 22px;
 left: 348.97px;
-top: 51px;
+top: 20px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 800;
 font-size: 18px;
 line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
 }
 
-.Category{
+#category{
     position: absolute;
 width: 79px;
 height: 22px;
 left: 459.97px;
-top: 51px;
+top: 20px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 800;
 font-size: 18px;
 line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
 }
 
-.Promo{
+#kostania{
     position: absolute;
+width: 195px;
+height: 45px;
+left: 623px;
+top: 10px;
+
+font-family: 'Arupala Grotesk Trial';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #0D0D0D;
+
+
+}
+
+#promo{
+    
+position: absolute;
 width: 55px;
 height: 22px;
 left: 902.97px;
-top: 51px;
+top: 20px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 800;
 font-size: 18px;
 line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
 }
 
-.About{
+#about{
     position: absolute;
 width: 52px;
 height: 22px;
 left: 1017.97px;
-top: 51px;
+top: 20px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 800;
 font-size: 18px;
 line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
 }
 
 .NomeDaPagina{
@@ -110,9 +148,9 @@ color: #0D0D0D;
 .pesquisa{
 position: absolute;
 width: 25px;
-height: px;
-left: 1315.97px;
-top: 8px;
+height: 24px;
+left: 1280px;
+top: 40px;
 
 }
 
@@ -195,5 +233,121 @@ left:760px;
 top: 1037px;
 background-color: #0D0D0D;
 color: white;
+
+}
+
+#coluna2{
+position: absolute;
+width: 367px;
+height: 90px;
+left: 1250px;
+top: 161px;
+
+font-family: 'Arupala Grotesk Trial';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 90px;
+/* identical to box height, or 200% */
+color: #08090B;
+
+}
+
+#Coats{
+    width: 230px;
+    height: 36px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 50px;
+    /* or 156% */
+    
+    letter-spacing: -0.04em;
+    
+    color: #191919;
+    
+    
+   
+flex: none;
+order: 0;
+ flex-grow: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+position: absolute;
+width: 230px;
+height: 75px;
+left: 1255px;
+top: 855px;
+    
+
+}
+
+#more{
+    position: absolute;
+width: 448px;
+height: 90px;
+left: 1255px;
+top: 1030px;
+
+font-family: 'Arupala Grotesk Trial';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 90px;
+/* identical to box height, or 200% */
+
+
+color: #08090B;
+
+}
+
+#hand-crafted{
+    position: absolute;
+width: 454px;
+height: 120px;
+left: 1250px;
+top: 1125px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+/* or 143% */
+
+text-transform: capitalize;
+
+color: #08090B;
+
+opacity: 0.7;
+}
+
+#explore{
+    position:absolute;
+    width: 230px;
+    height: 36px;
+    left: 1258px;
+    top: 895px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 280%;
+/* or 208% */
+
+letter-spacing: -0.04em;
+
+color: #7F7F7F;
+
+
+/* Inside auto layout */
+
 
 }
